@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">mdb</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0</user-agent>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>6</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+   <channel update="i" site="tvplus.com.br.E" site_id="MNX" xmltv_id="Cinemax">Cinemax</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="EUR" xmltv_id="Eurochannel">Eurochannel</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="BRA" xmltv_id="Film &amp; Arts">Film &amp; Arts</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HBO" xmltv_id="HBO">HBO</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HB2" xmltv_id="HBO 2">HBO 2</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HFA" xmltv_id="HBO Family">HBO Family</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HPL" xmltv_id="HBO Plus">HBO Plus</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HPE" xmltv_id="HBO Plus *e">HBO Plus *e</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HFE" xmltv_id="HBO Signature">HBO Signature</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="SAT" xmltv_id="I-Sat">I-Sat</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="MXE" xmltv_id="MAX">MAX</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="MAP" xmltv_id="MAX Prime">MAX Prime</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="MPE" xmltv_id="MAX Prime *e">MAX Prime *e</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="MAX" xmltv_id="MAX Up">MAX Up</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="MPX" xmltv_id="Megapix">Megapix</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="PAR" xmltv_id="Paramount Channel">Paramount Channel</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="SPA" xmltv_id="Space">Space</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="HAL" xmltv_id="Studio Universal">Studio Universal</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="SUN" xmltv_id="Sundance TV">Sundance TV</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TCM" xmltv_id="TCM">TCM</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TC2" xmltv_id="Telecine Action">Telecine Action</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TC5" xmltv_id="Telecine Cult">Telecine Cult</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TC6" xmltv_id="Telecine Fun">Telecine Fun</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TC4" xmltv_id="Telecine Pipoca">Telecine Pipoca</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TC1" xmltv_id="Telecine Premium">Telecine Premium</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TC3" xmltv_id="Telecine Touch">Telecine Touch</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="TNT" xmltv_id="TNT">TNT</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="BAB" xmltv_id="Baby TV">Baby TV</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="BMG" xmltv_id="Boomerang">Boomerang</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="CAR" xmltv_id="Cartoon Network">Cartoon Network</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="DIK" xmltv_id="Discovery Kids">Discovery Kids</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="DNY" xmltv_id="Disney Channel">Disney Channel</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="PHD" xmltv_id="Disney Junior">Disney Junior</channel>
+    <channel update="i" site="tvplus.com.br.E" site_id="DXD" xmltv_id="Disney XD">Disney XD</channel>
+ 
+ 
+</settings>
